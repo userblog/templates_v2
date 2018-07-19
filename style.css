@@ -18,6 +18,9 @@ input[type='text'] {
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 	}
+	
+/*-------HEADER-------*/
+
 .header {
 	background-image: url('../images/doski.jpeg');
 	background-repeat: no-repeat;
@@ -56,3 +59,62 @@ input[type='text'] {
 	font-size: 1.5em;
 	font-weigth: 100;
 	}
+	
+/*-------END-HEADER-------*/
+
+/*----------MAIN----------*/
+
+.main {
+	display: flex;
+	justify-content: center;
+	flex-direction: space-between;
+	padding: 1.5em;
+	margin: 3em;
+	}
+.post {
+	width: 70.215053763440862%;
+	}
+.post__text {
+	line-height: 1.2em;
+	font-size: 1em;
+	}
+.link__post-next {
+	color: black;
+	}
+.post__text-info {
+	display: flex;
+	flex-direction: flex-end;
+	height: 3em;
+	border-top: 1px solid gray;
+	margin-top: 2em;
+	margin-bottom: 4em;
+	line-height: 3em;
+	font-weight: bold;
+	font-size: .85em;
+	color: gray;
+	}
+.post__info-date {
+	margin-right: auto;
+    padding: 1em 0;
+	}
+.post__info-comment {
+	padding: 1em 1em;
+	}
+.post__info-views {
+	padding: 1em 0;
+	}
+/*-------END-MAIN---------*/
+
+/*--------FOOTER----------*/
+
+.footer {
+	height: 10em;
+	background-image: url('../images/doski.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	line-height: 10em;
+	}
+
+/*------END-FOOTER--------*/
