@@ -1,0 +1,58 @@
+@font-face {
+	font-family: 'Montserrant';
+	url: ('../fonts/montserrant/Montserrat-Black.ttf');
+	}
+body {
+	font-family: 'Montserrant';
+	letter-spacing: .1em;
+	}
+a {
+	text-decoration: none;
+	color: white;
+	}
+a:link, a:visited {
+	color: white;
+	}
+input[type='text'] {
+	padding-left: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	}
+.header {
+	background-image: url('../images/doski.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	height: 100vh;
+	}
+.nav {
+	display: flex;
+	height: 3em;
+	padding: 2em;
+	}
+.nav__link {
+	padding: 1em;
+	text-transform: uppercase;
+	}
+.search {
+	margin-left: auto;
+	height: 3em;
+	}
+
+.header__info {
+	display: flex;
+	height: 92.5vh;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	}
+.header__block-info {
+	height: 15em;
+	}
+.info__name {
+	font-size: 3.5em;
+	}
+.info__skill {
+	font-size: 1.5em;
+	font-weigth: 100;
+	}
