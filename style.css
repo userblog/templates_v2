@@ -1,11 +1,11 @@
 @font-face {
-	font-family: 'Montserrant';
-	url: ('../fonts/montserrant/Montserrat-Black.ttf');
+	font-family: 'PT Sans';
+	url: ('fonts/pt_sans/PT_Sans.ttf');
 	}
 
 body {
-	font-family: 'Montserrant';
-	letter-spacing: .1em;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
 	}
 a {
 	text-decoration: none;
@@ -28,7 +28,7 @@ textarea[placeholder] {
 /*-------HEADER-------*/
 
 .header {
-	background-image: url('../images/doski.jpeg');
+	background-image: url('images/doski.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
@@ -81,9 +81,9 @@ textarea[placeholder] {
 	width: 70.215053763440862%;
 	}
 .post__text {
-	line-height: 1.5em;
-	letter-spacing: .05em;
-	font-size: 1em;
+	line-height: 1.75em;
+	letter-spacing: 0;
+	font-size: 1.2em;
 	}
 .link__post-next, 
 .link__post-next:link, 
@@ -99,7 +99,7 @@ textarea[placeholder] {
 	margin-bottom: 4em;
 	line-height: 3em;
 	font-size: .85em;
-	letter-spacing: .03em;
+	letter-spacing: 0;
 	color: gray;
 	}
 .post__info-date {
@@ -122,6 +122,7 @@ textarea[placeholder] {
 .comment-logo {
 	font-size: 1.75em;
 	font-weight: 400;
+	letter-spacing: 0;
 	}
 .comment-form {
 	margin-bottom: 2em;
@@ -144,24 +145,29 @@ textarea[placeholder] {
 	left: 0;
 	margin-top: 2em;
 	width: 20%;
+	font-size: 1em;
+	border: 1px solid #dddddd;
+	background-color: #eeeeee;
     }
+.comment-form__btn:hover {
+	border: 1px solid #cccccc;
+	background-color: #dddddd;
+	}
 .comment {
 	
 	}
 .comment__name {
 	font-weight: 500;
 	font-size: 1.2em;
-	}
-.dot {
-	
+	letter-spacing: 0;
 	}
 .comment-time {
 	font-size: 0.7em;
-	letter-spacing: .05em;
+	letter-spacing: 0;
 	}
 	
 .comment__text {
-	letter-spacing: .05em;
+	letter-spacing: 0;
 	}
 /*-------END-MAIN---------*/
 
@@ -169,7 +175,7 @@ textarea[placeholder] {
 
 .footer {
 	height: 10em;
-	background-image: url('../images/doski.jpeg');
+	background-image: url('images/doski.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: white;
