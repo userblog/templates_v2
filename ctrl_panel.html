@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>My blog v2.0</title>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link href='style.css' rel='stylesheet'>
+    <link href='normolize.css' rel='stylesheet'>
+    <link href='botstrap.min.css' rel='stylesheet'>
+  </head>
+  <body>
+  <div class='wrapper'>
+    <header class='header'>
+      <input type='checkbox' id='menu' class='toogleMenu'>
+	  <label for='menu' class='toogleMenu'>Menu</label>
+  	<nav class='nav'>
+  	  <a href='#' class='nav__link'>Блог</a>
+        <a href='#' class='nav__link'>Контакты</a>
+        <a href='#' class='nav__link'>Обо мне</a>
+        <form class='search' action='' method=''>
+          <input class='search__field' type='text' name='search' placeholder='Search'>
+        </form>
+      </nav>
+      
+      <div class='header__info'>
+        <div class='header__block-info'>
+          <h1 class='info__name'>Rusin Vyacheslav</h1>
+          <span class='info__skill'> Блог, о моем становлении веб-разработчиком.</span>
+        </div>
+      </div>
+      <div class='header__socialmedia'>
+      
+      </div>
+    </header>
+    
+    <section class='main'>
+    <div class='table-responsive'>
+      <table class='table'>
+      	<thead class="thead-light">
+      	  <tr>
+      	    <th>Дата публикации</th>
+              <th>Заголовок</th>
+              <th>Изменить</th>
+              <th>Удалить</th>
+              <th>Просмотры</th>
+              <th>Комментарии</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+      	    <td>19.07.2018</td>
+              <td class='table-text-left'>Вёрстка на Flexbox в CSS. 
+                  Полный справочник</td>
+              <td><a class='link-table-edit' href='#edit'>EDIT</a></td>
+              <td><a class='link-table-del' href='#edit'>DEL</a></td>
+              <td>44</td>
+              <td>10</td>
+            </tr>
+            <tr>
+      	    <td>19.07.2018</td>
+              <td class='table-text-left'>Вёрстка на Flexbox в CSS. 
+                  Полный справочник</td>
+              <td><a class='link-table-edit' href='#edit'>EDIT</a></td>
+              <td><a class='link-table-del' href='#edit'>DEL</a></td>
+              <td>44</td>
+              <td>10</td>
+            </tr>
+            <tr>
+      	    <td>19.07.2018</td>
+              <td class='table-text-left'>Вёрстка на Flexbox в CSS. 
+                  Полный справочник.
+				  Вёрстка на Flexbox в CSS. Вёрстка на Flexbox в CSS. Вёрстка на Flexbox в CSS. 
+                  </td>
+              <td><a class='link-table-edit' href='#edit'>EDIT</a></td>
+              <td><a class='link-table-del' href='#edit'>DEL</a></td>
+              <td>44</td>
+              <td>10</td>
+            </tr>
+            <tr>
+      	    <td>19.07.2018</td>
+              <td class='table-text-left'>Вёрстка на Flexbox в CSS. 
+                  Полный справочник.Вёрстка на Flexbox в CSS. </td>
+              <td><a class='link-table-edit' href='#edit'>EDIT</a></td>
+              <td><a class='link-table-del' href='#edit'>DEL</a></td>
+              <td>44</td>
+              <td>10</td>
+            </tr>
+          </tbody>
+      	   
+      </table>
+      </div>
+      
+    </section>
+      
+      <section class='form-post add-form'>
+        <div class='comment-logo'>Добавить пост</div>
+        <div class='comment-form'>
+          <form class='comment-form__form'>
+            <input placeholder='Заголовок' class='comment-form__text' type='text'>
+            <textarea placeholder='Пост' rows=8 class='comment-form__text'></textarea>
+            <button class='comment-form__btn'>Опубликовать</button>
+          </form>
+        </div>
+      </section>
+      
+    <footer class='footer'>
+      <p class='footer__text'>
+        Create on 2018 by Rusin Vyacheslav. &#169
+      </p>
+    </footer>
+    </div>
+  </body>
+</html>
+  
