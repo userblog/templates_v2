@@ -24,7 +24,7 @@ textarea, button {
 	}
 input[placeholder],
 textarea[placeholder] {
-	font-size: 0.8em
+	font-size: 1em
 	}
 	
 /*-------BOOTSTRAP-----*/
@@ -290,10 +290,11 @@ input[type='checkbox'] {
 	cursor: pointer;
 	color: #00cc99;
 	}
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) and (max-width: 997px) {
 	.header {
 		height: 100vh;
 		width: 100%;
+		position: relative;
 		}
 	.header__info {
 	    height: 72.5vh;
@@ -319,14 +320,14 @@ input[type='checkbox'] {
 		border: 1px solid rgba(0,0,0,0.1);
 		background-color: rgba(0,0,0,0.1);
 		height: 2.5em;
-		width: 100vw;
 		padding-left: 1em;
 		}
 	.search__field:focus {
 		background-color: rgba(255,255,255,0.9);
+		width: 100vw;
 		}
 	input[type='text'] {
-		padding-left: 1em;
+		
 		}
 	.header nav {
 		/*display: none;*/
@@ -347,6 +348,7 @@ input[type='checkbox'] {
     .header input.toogleMenu:checked ~ nav {
     	/*display: block;*/
         height: 91vh;
+        width: 100vw;
         z-index: 999;
         transform: scaleX(1);
 		opacity: 1;
